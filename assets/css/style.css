@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: cadetblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+  height: 90vh;
+}
+
+header {
+  background-color: chocolate;
+  color: rgb(4, 4, 65);
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  text-align: center;
+}
+
+main {
+  padding: 10px 20px 100px 20px;
+  margin: 0 auto;
+  min-height: 500px;
+}
+
+nav {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: darkslategrey;
+  font-size: 21px;
+}
+
+li {
+  padding: 5px;
+}
+
+footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  position: fixed;
+  background-color: chocolate;
+}
+
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  text-align: center;
+  font-size: 17px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0px auto;
+  text-align: center;
+}
+
+td {
+  border: 1px solid;
+  height: 50px;
+}
+
+.child-table td,
+.frst-table td {
+  width: 33%;
+}
+
+.frst-table {
+  width: 75%;
+}
+
+.w-one-two {
+  width: 40%;
+}
+
+.fiv-six-first {
+  height: 200px;
+}
+
+.w-thr {
+  width: 60%;
+}
+
+.w-fr {
+  width: 28%;
+}
+
+.parent-table {
+  width: 90%;
+}
+
+.child-table {
+  width: 80%;
+}
+
+.h-fr-svn,
+.h-thr-six {
+  height: 200px;
+}

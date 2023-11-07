@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Друга таблиця</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Друга таблиця</h1>
+  </header>
+  <main>
+    <nav>
+      <ul>
+        <li><a href="table1.html">Перша таблиця</a></li>
+        <li><a href="table2.html">Друга таблиця</a></li>
+        <li><a href="../index.html">Головна сторінка</a></li>
+      </ul>
+    </nav>
+
+    <table class="parent-table">
+      <caption>Друга таблиця, БАТЬКІВСЬКА</caption>
+      <tr>
+        <td class="w-one-two" colspan="2">1-2</td>
+        <td class="w-thr">3</td>
+      </tr>
+      <tr>
+        <td class="w-fr">4</td>
+        <td colspan="2" rowspan="2">
+          <table class="child-table">
+            <caption>Друга таблиця, ДОЧІРНЯ</caption>
+            <tr>
+              <td>1</td>
+              <td rowspan="3">2-5-8</td>
+              <td class="h-thr-six" rowspan="2">3-6</td>
+            </tr>
+            <tr>
+              <td class="h-fr-svn" rowspan="2">4-7</td>
+            </tr>
+            <tr>
+              <td>9</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>7</td>
+      </tr>
+    </table>
+  </main>
+  <footer>
+    <div class="foot">&copy; Oleksandr Khutorianskyi</div>
+  </footer>
+</body>
+
+</html>
